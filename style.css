@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    list-style: none;
+
+}
+header{
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
+#udemy-logo{
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+}
+#search-section{
+    background-color: rgb(246, 246, 246);
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+}
+.nav-paragraph{
+    padding-top: 10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' -25,
+    'opsz' 48;
+    margin-top: 20px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' -25,
+    'opsz' 48
+  }
+
+  #head-header-links{
+    margin-top:  15px;
+  }
+  .header-links{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .header-links-sign{
+    padding: 10px;
+    background-color: black;
+
+  }
+  .link1{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .link2{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+/* First section after header */
+#bg-image{
+    /* width: 1000px; */
+    width: 100%;
+    height: 400px;
+}
+
+#content-hover{
+    background-color: white;
+    width: 400px;
+    border: 1px solid gainsboro;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+#content-hover-heading-paragraph{
+    font-family: sans-serif;
+}
+
+/* First section ends here */
+
+/* Second section begins here */
+#second-section-heading{
+    font-size: 30px;
+    padding-left: 15px;
+}
+#second-section-paragraph{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#second-section-nav{
+    width: 50%;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section-links{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: grey;
+}
+/* second section ends here */
+
+
+
